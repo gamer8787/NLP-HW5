@@ -1,0 +1,5 @@
+grammar = r"""
+    MAIN-SUBJECT:   {<NNP>+<,|VB.?><DT>?<NN.?>} 
+    NON-SUBJECT:   {<IN><NNP>+} 
+    SUB-SUBJECT:   {<NNP>+} 
+    """
